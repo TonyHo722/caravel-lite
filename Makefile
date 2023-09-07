@@ -1186,7 +1186,7 @@ ifeq ($(SUBMODULE),1)
 	$(MAKE) simlink
 else
 	@echo "Installing $(MCW_NAME).."
-	@git clone -b $(MCW_TAG) $(MCW_REPO) $(MCW_ROOT) --depth=1
+	@git clone -b $(MCW_TAG) $(MCW_REPO) $(MCW_ROOT)
 endif
 
 
